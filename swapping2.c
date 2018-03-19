@@ -2,16 +2,16 @@
 #include<conio.h>
 int main()
 {
-      double firstNumber, secondNumber, temporaryVariable;
+      double r, i, a;
       clrscr();
       printf("Enter first number: ");
-      scanf("%lf", &firstNumber);
+      scanf("%lf", &r);
       printf("Enter second number: ");
-      scanf("%lf",&secondNumber);
-      temporaryVariable = firstNumber;
-      firstNumber = secondNumber;
-      secondNumber = temporaryVariable;
-      printf("\nAfter swapping, firstNumber = %.2lf\n", firstNumber);
-      printf("After swapping, secondNumber = %.2lf", secondNumber);
+      scanf("%lf",&i);
+      a = r;
+      a = i;
+      i= a;
+      printf("\nAfter swapping, firstNumber = %.2lf\n", r);
+      printf("After swapping, secondNumber = %.2lf", i);
       return 0;
 }
