@@ -2,6 +2,7 @@
 #include<conio.h>
 int main()
 {
+    
     int b,a,sum;
     clrscr();
     printf("last number");
